@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc5541"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.siyamed.shapeimageview.BubbleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/female_doctor"
+            app:siArrowPosition="right"
+            app:siSquare="true"
+            app:siTriangleHeight="75dp" />
+
+        <com.github.siyamed.shapeimageview.BubbleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/female_doctor"
+            app:siArrowPosition="right"
+            app:siSquare="true" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#ff0000"
+            app:siBorderWidth="6dp"
+            app:siRadius="0dp"
+            app:siSquare="true" />
+
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#ff0000"
+            app:siBorderWidth="4dp"
+            app:siRadius="50dp"
+            app:siSquare="true" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#00ff00"
+            app:siBorderWidth="6dp"
+            app:siRadius="100dp"
+            app:siSquare="true" />
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#ff606060"
+            app:siBorderWidth="10dp" />
+
+
+        <com.github.siyamed.shapeimageview.OctogonImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderWidth="2dp"
+            app:siBorderColor="#fa0f80"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.github.siyamed.shapeimageview.DiamondImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#ff020203"
+            app:siBorderWidth="8dp" />
+
+        <com.github.siyamed.shapeimageview.HeartImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderColor="#000"
+            app:siBorderWidth="8dp" />
+
+        <com.github.siyamed.shapeimageview.StarImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/female_doctor"
+        app:siBorderWidth="2dp"
+        app:siBorderColor="#000080"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.github.siyamed.shapeimageview.HexagonImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderWidth="2dp"
+            app:siBorderColor="#000080"/>
+
+
+        <com.github.siyamed.shapeimageview.PentagonImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/female_doctor"
+            app:siBorderWidth="2dp"
+            app:siBorderColor="#000080"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<com.github.siyamed.shapeimageview.shape.PorterShapeImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--app:siShape="@drawable/star"-->
+            <!--android:src="@drawable/female_doctor"-->
+            <!--app:siSquare="true"/>-->
+
+        <!--<com.github.siyamed.shapeimageview.shape.PorterShapeImageView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--app:siShape="@drawable/shape_rounded_rectangle"-->
+            <!--android:src="@drawable/female_doctor"-->
+            <!--app:siSquare="true"/>-->
+
+        </LinearLayout>
+</LinearLayout>
